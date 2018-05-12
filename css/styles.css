@@ -96,3 +96,13 @@ input{
 .radiocheck-02{
   border-left: 20px
 }
+
+.radio-inputs-02{
+  border: 3px solid #1E88E5;
+  padding: 1.5rem;
+}
+
+.results-02{
+  border: 3px solid #6A1B9A;
+  padding: 1.5rem;
+}
