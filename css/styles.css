@@ -10,7 +10,7 @@ img{
 
 .ex-01{ background: #ABEBC6 !important; }
 .ex-02{ background: #F0B27A !important;}
-.ex-03{ background: #D6DBDF !important;}
+.ex-03{ background: #1E88E5 !important; color: #fff !important;}
 
 
 .button,
@@ -82,6 +82,11 @@ input{
    font-size: 2rem;
 }
 
+input.user-input--err,
+input.user-input--err:focus  {
+  border: 2px solid firebrick;
+}
+
 .inputs-01{
   border: 4px solid #ABEBC6;
   padding: 20px;
@@ -98,11 +103,37 @@ input{
 }
 
 .radio-inputs-02{
-  border: 3px solid #1E88E5;
+  border: 3px solid #F0B27A;
   padding: 1.5rem;
 }
 
 .results-02{
   border: 3px solid #6A1B9A;
   padding: 1.5rem;
+}
+
+.form-03{
+  border: 3px solid #1E88E5;
+  padding: 1.5rem;
+}
+
+.form-output {
+  border: 3px solid #777;
+  padding: 1.5rem;
+}
+
+.form-output th{
+  color: #777
+}
+
+.form-output td{
+  color:  #1E88E5
+}
+
+.result-liked,
+.result-age{
+  background: #ddd;
+  padding: .5rem;
+  display: inline-block;
+
 }
